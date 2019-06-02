@@ -70,7 +70,9 @@ b = "Kamal"
 ```
 
 To understand variables in detail, refer these tutorials:
+
 a. [Option Explicit & Implicit](https://www.youtube.com/watch?v=mojNkrnt_YA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=5&t=0s)
+
 b. [Dim, Public, Private and Global Keywords](https://www.youtube.com/watch?v=33JmyY83IpA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=6&t=5s)
 
 
