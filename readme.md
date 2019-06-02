@@ -11,7 +11,7 @@
  to be updated
 
 --------------------------------------------------------------------------
-## 1 Introductin & Disclaimer
+## 1. Introduction & Disclaimer
 
 ### 1.1 What is Screen Scraping / Data Scraping?
 
@@ -23,7 +23,9 @@ It is not, unless you are scraping your own website or blog. We therefore do not
 
 --------------------------------------------------------------------------
 
-## 2 VBA Refresher [Optional]
+## 2. VBA Refresher [Optional]
+
+> **NOTE :** If you are not comfortable in VBA, we recommend this course to you. https://www.youtube.com/watch?v=dYHgr2murPk&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj
 
 ### 2.1 Subprocedures & Functions
 
@@ -35,7 +37,7 @@ Sub nameOfSubprocedure()
 End Sub
 ```
 
-A **Function** on other hand is a series of VB statements enclosed by the Function and End Function. It performs a task and then returns control to the calling code. When it returns control, it also returns a value to the calling code.
+A **function** on other hand is a series of VB statements enclosed by the Function and End Function. It performs a task and then returns control to the calling code. When it returns control, it also returns a value to the calling code.
 
 ```vba
 Function nameOfFunction()
@@ -43,6 +45,8 @@ Function nameOfFunction()
 	nameOfFunction = <valueToBeReturned>
 End Function
 ```
+
+[Tutorial on Functions & Subprocedures](https://www.youtube.com/watch?v=1KDdu4BOZSA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=7&t=0s)
 
 ### 2.2 Variable Declaration and Object Initialization
 
