@@ -25,7 +25,7 @@ It is not, unless you are scraping your own website or blog. We therefore do not
 
 ## 2. VBA Refresher [Optional]
 
-> **NOTE :** If you are not comfortable in VBA, we recommend this course to you. https://www.youtube.com/watch?v=dYHgr2murPk&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj
+> **NOTE :** If you are not comfortable in VBA, refer [Excel macros/VBA Course on Youtube.](https://www.youtube.com/watch?v=dYHgr2murPk&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj)
 
 ### 2.1 Subprocedures & Functions
 
@@ -48,6 +48,45 @@ End Function
 
 [Tutorial on Functions & Subprocedures](https://www.youtube.com/watch?v=1KDdu4BOZSA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=7&t=0s)
 
+
 ### 2.2 Variable Declaration and Object Initialization
 
+**Variables** can store information required to use in our program. These are used to store values of various data types.
+
+#### Declare a variable
+```vba
+Dim a As Integer
+
+Dim b As String
+
+Dim c As Variant
+```
+
+#### Initialize a variable
+```vba
+a = 10
+
+b = "Kamal"
+```
+
+To understand variables in detail, refer these tutorials:
+a. [Option Explicit & Implicit](https://www.youtube.com/watch?v=mojNkrnt_YA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=5&t=0s)
+b. [Dim, Public, Private and Global Keywords](https://www.youtube.com/watch?v=33JmyY83IpA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=6&t=5s)
+
+
+#### Declare an Object
+```vba
+Dim o as Object
+
+Dim e As Excel.Application
+
+Dim o As Outlook.Application
+```
+
+#### Initialize an Object
+```vba
+Set e = new Excel.Application
+
+Set o = new Outlook.Application
+```
 --------------------------------------------------------------------------
