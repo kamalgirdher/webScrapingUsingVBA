@@ -44,9 +44,9 @@ Function nameOfFunction()
 	<set of statments>
 	nameOfFunction = <valueToBeReturned>
 End Function
-```
 
-[Tutorial on Functions & Subprocedures](https://www.youtube.com/watch?v=1KDdu4BOZSA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=7&t=0s)
+
+```To learn more about functions and subprocedures, refer this [tutorial about Functions & Subprocedures](https://www.youtube.com/watch?v=1KDdu4BOZSA&list=PL1R_HJw0CDYKjmUxI3IKyuJcIKnWHVcuj&index=7&t=0s)
 
 
 ### 2.2 Variable Declaration and Object Initialization
