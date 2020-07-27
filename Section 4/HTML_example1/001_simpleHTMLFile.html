@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Kamal Girdher's page</title>
+		<style>
+		h4{font-family: "Segoe UI",Arial,sans-serif;background:yellow;}
+		label{font-family: "Segoe UI",Arial,sans-serif;font-weight: 400;margin: 10px;}
+		</style>
+		<script>
+			function colorpick(){
+			var selected = document.getElementById('colorselector')
+			document.getElementById('block').style.background =selected[selected.selectedIndex].text}
+			
+			function submitbutton(){
+			document.getElementById('block').innerHTML="Form submitted successfully."
+			}
+		</script>
+	</head>
+	<body>
+		<div style="background:red; color:white;"><h1>This is title for Color Selector</h3></div>
+		
+		<div>
+		<h4>TEXTBOX<h3>
+		<label>Name</label><input id="usr" name="uname" type="text" value=""></input> <br/>
+		
+		<h4>COMBOBOX<h3>
+		<select id="colorselector" onchange="colorpick()">
+			<option>Red</option>
+			<option>Blue</option>
+			<option>Green</option>
+			<option>Purple</option>
+			<option>Orange</option>
+			<option>Pink</option>
+		</select>
+		<h4>RADIO BUTTON<h3>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label>
+		<h4>CHECKBOX<h3>
+		<input type="checkbox" id="car" name="car" value="Bike">
+		<label for="car"> I have a Car</label><br>
+		<input type="checkbox" id="bike" name="bike" value="Car">
+		<label for="bike"> I have a Bike</label><br>
+		<input type="checkbox" id="boat" name="boat" value="Boat">
+		<label for="boat"> I have a Boat</label><br>
+		</div>
+		<h4>BUTTON<h3>
+		<input type="button" value="Submit" onclick="submitbutton()"></input><br/><br/>
+		<div id='block' style="background:cyan;height:100px;width:100px;margin-top:10px;"><label id = "finalmsg"></label></div>
+	</body>
+</html>
